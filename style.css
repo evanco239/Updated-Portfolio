@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+#showcase {
+  background: url("./close-up-code-coding-160107.png") center/cover no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+
+}
+
+#showcase .heading {
+  padding-top: 90px;
+  font-size: 6rem;
+}
+
+#showcase .about {
+  margin: 150px auto 0 auto;
+}
+
+#showcase .about i {
+  color: #3a95b9;
+  font-size: 3rem;
+}
+
+#skills{
+    width: 50%
+}
+#skills .heading, #projects .heading{
+    text-decoration: underline;
+    color: #3a95b9;
+}
+
+
+#projects .card{
+    background: #eee;
+}
+
+.technology-used {
+    text-align: center;
+    padding: 0 10px;
+    list-style: none;
+  }
+.technology-used  {
+    list-style: none;
+  }
+.technology-used li:nth-child(even) {
+    background: #ddd;
+  }
+  
+
+
+/* @media queries at */
+@media (max-width: 991px) {
+  #showcase {
+    background: url("./close-up-code-coding-160107.png") center/cover no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    padding-bottom: 40px;
+  }
+  #showcase .heading{
+      font-size: 5rem;
+      margin-top: 25px;
+  }
+  #showcase .about .card{
+    max-width:100% !important;
+  }
+}
